@@ -1,0 +1,11 @@
+  <h2>Repuestos Ls</h2>
+  <div class="grid-container-2">
+    <h4>Nos especializamos en repuestos originales y alternativos de Volkswaguen. Llegamos al mercado para hacer que conseguir ese repuesto que necesitas sea fácil y rápido.
+      Contamos con catálogos oficiales para poder conseguir esa pieza exacta que buscas.</h4>
+      <div class="grid-item-2">Celda 1</div>
+      <div class="grid-item-2">Celda 2</div>
+  </div>
+
+
+
+  

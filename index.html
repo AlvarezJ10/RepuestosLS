@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <title>Repuestos Ls</title>
 </head>
-<body>
+<body class="compras">
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <img class="logo" src="./img/logovw.jpg" alt="logo">
@@ -29,44 +29,9 @@
         </div>
       </nav>
 
-      <script>
-        document.getElementById("searchForm").addEventListener("submit", function(event) {
-          event.preventDefault(); // Evita que el formulario se envíe
-      
-          // Aquí puedes agregar tu lógica de búsqueda
-          var searchQuery = document.getElementById("searchInput").value;
-          console.log("Realizando búsqueda: " + searchQuery);
-      
-          // Puedes redirigir a una página de resultados de búsqueda o hacer cualquier otra acción deseada
-        });
-      </script>
 
-
-      <title>Carrito de Compras</title>
-      <!-- Agrega los enlaces a los archivos CSS de Bootstrap -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-      <style>
-        .item {
-          margin-bottom: 20px;
-        }
-    
-        .item .item-title {
-          font-weight: bold;
-        }
-    
-        .item .item-price {
-          color: #888;
-        }
-    
-        .total {
-          font-weight: bold;
-          text-align: right;
-        }
-      </style>
-    </head>
-    <body>
       <div class="container">
-        <h2>Carrito de Compras</h2>
+        <h2 class="colorfon"  >Carrito de Compras</h2>
         <div id="cart-items">
           <!-- Los productos se agregarán dinámicamente aquí -->
         </div>
@@ -186,7 +151,7 @@
       text-align: center;
       opacity: 0;
       transform: scale(0.8);
-      animation: scaleIn 1s ease forwards;
+      animation: scaleIn 5s ease forwards;
       margin: 10px;
     }
 
@@ -212,16 +177,27 @@
       }
     }
   </style>
-</head>
-<body>
-  <h2>Repuestos Ls</h2>
+  </head>
+
+
+  <h2 class="colorfon" >Repuestos Ls</h2>
   <div class="grid-container-2">
-    <h4>Nos especializamos en repuestos originales y alternativos de Volkswaguen. Llegamos al mercado para hacer que conseguir ese repuesto que necesitas sea fácil y rápido.
+    <h4 class="colorfon">Nos especializamos en repuestos originales y alternativos de Volkswaguen. Llegamos al mercado para hacer que conseguir ese repuesto que necesitas sea fácil y rápido.
       Contamos con catálogos oficiales para poder conseguir esa pieza exacta que buscas.</h4>
-      <div class="grid-item-2">Celda 1</div>
-      <div class="grid-item-2">Celda 2</div>
+
+      <div class="grid-item-2">
+        <p>+ 15
+        Marcas de Primer Nivel</p>
+        <p>+500
+        Clientes Felices</p>
+        <p>+345
+        Pedidos por mes</p>
+        <p>+2K
+        Productos en Catálogo</p>
+        
+
+      </div>
   </div>
-</body>
 
 
       <div class="dropdown">
@@ -230,7 +206,7 @@
         </button>
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="enlaces.html/motor.html">Motor</a></li>
-          <li><a class="dropdown-item" href="enlaces.html/transmicion.html">Transmicion</a></li>
+          <li><a class="dropdown-item" href="enlaces.html/transmicion.html">Transmision</a></li>
           <li><a class="dropdown-item" href="enlaces.html/suspension.html">Suspension y Direccion</a></li>
           <li><a class="dropdown-item" href="enlaces.html/encendido.html">Encendido</a></li>
           <li><a class="dropdown-item" href="enlaces.html/frenos.html">Frenos</a></li>
@@ -359,7 +335,7 @@
       </section>
 
       <footer>
-        <p>&copy; 2023  Repuestos Ls. Todos los derechos reservados.</p>
+        <p class="colorfon">&copy; 2023  Repuestos Ls. Todos los derechos reservados.</p>
       </footer>
 
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
